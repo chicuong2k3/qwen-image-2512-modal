@@ -1,0 +1,8 @@
+﻿# images / outputs (large, regenerate with the scripts)
+*.png
+*.jpg
+tune_out/
+# logs
+*.log
+__pycache__/
+.venv/

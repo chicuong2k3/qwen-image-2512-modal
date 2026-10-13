@@ -1,0 +1,25 @@
+﻿group                                            P(real photo)  n
+realism  Q50_snapshot_magic     TE=orig                  1.000  6
+realism  Q50_snapshot_magic     TE=ablit                 1.000  6
+realism  Q50_snapshot           TE=orig                  1.000  6
+realism  L4_snapshot            TE=ablit                 0.999  6
+realism  L4_snapshot            TE=orig                  0.999  6
+realism  Q50_snapshot           TE=ablit                 0.999  6
+sweep    Q50_cfg4_neg-blank                              0.997  4
+sweep    Q50_cfg4_neg-off_magic                          0.993  4
+sweep    Q50_cfg2.5_off_magic                            0.992  4
+sweep    Q40_cfg4_off_magic                              0.992  4
+sweep    Q50_cfg5_off_magic                              0.992  4
+sweep    L8x6_magic                                      0.991  4
+sweep    Q50_cfg3_off_magic                              0.991  4
+sweep    Q30_cfg4_off_magic                              0.990  4
+sweep    L8x8_magic                                      0.990  4
+sweep    L8x8                                            0.990  4
+sweep    Q50_cfg4_neg-off                                0.990  4
+sweep    L4x6_magic                                      0.989  4
+sweep    L8x10_magic                                     0.985  4
+sweep    L4x4_s0.85_magic                                0.984  4
+sweep    L4x4                                            0.980  4
+sweep    L4x4_magic                                      0.980  4
+realism  Q50_glossy             TE=orig                  0.938  6
+realism  Q50_glossy             TE=ablit                 0.920  6
