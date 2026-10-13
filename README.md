@@ -36,7 +36,7 @@ GPU defaults to H100. Experiments: `QWEN_GPU=A100-80GB`, `QWEN_GPU=L40S QWEN_OFF
 | mode | how | H100 GPU time (1104x1472) | ~cost / image | suggested tokens |
 |---|---|---|---|---|
 | `turbo` | Lightning 4-step LoRA, 4 steps | ~2.3 s | ~$0.0025 | 1 |
-| `fast` (default) | Lightning 4-step LoRA, 6 steps | ~3.2 s | ~$0.0035 | 2 |
+| `fast` (default) | Lightning 4-step LoRA, 6 steps | ~3 s (estimated, between 4 and 8 steps) | ~$0.0035 | 2 |
 | `balanced` | base, 30 steps, cfg 4, 864x1152 | ~11 s | ~$0.012 | 5 |
 | `quality` | base, 50 steps, cfg 3 | ~31 s | ~$0.034 | 12 |
 
