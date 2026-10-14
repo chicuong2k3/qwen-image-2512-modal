@@ -1,4 +1,4 @@
-# Qwen-Image-2512 (abliterated text encoder) on Modal
+﻿# Qwen-Image-2512 (abliterated text encoder) on Modal
 
 Serverless text-to-image API on [Modal](https://modal.com) running
 [Qwen/Qwen-Image-2512](https://huggingface.co/Qwen/Qwen-Image-2512) with the uncensored text encoder from the
@@ -57,7 +57,7 @@ curl -X POST https://<workspace>--qwen-image-2512-ablit-qwenimage-api.<region>.m
 | `prompt` | required | |
 | `mode` | `fast` | `turbo` / `fast` / `balanced` / `quality` |
 | `aspect` | `1:1` | `1:1 16:9 9:16 4:3 3:4 3:2 2:3` |
-| `rewrite` | `false` | expand the prompt with the loaded Qwen2.5-VL encoder into a concrete "ordinary photo" description; adds a few seconds; final prompt returned URL-encoded in `X-Prompt` header |
+| `rewrite` | `false` | expand the prompt with the loaded Qwen2.5-VL encoder into a concrete "ordinary photo" description; adds ~8 s on H100 (~$0.009); final prompt returned URL-encoded in `X-Prompt` header |
 | `enhance` | `true` | append the official suffix `, Ultra HD, 4K, cinematic composition.` |
 | `negative_prompt` | `null` | `null` = official Qwen-Image-2512 negative prompt (only used when cfg > 1) |
 | `steps`, `cfg`, `seed` | per mode | overrides |
